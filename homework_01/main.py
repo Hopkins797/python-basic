@@ -32,7 +32,8 @@ def filter_numbers(number_list, filter_type):
     """
     if filter_type == ODD:
         return [number for number in number_list if number % 2 != 0]
-
+    if filter_type == EVEN:
+        return [number for number in number_list if number % 2 == 0]
 
 # print(filter_numbers([1,2,3,5,6,7,8], ODD))
 # print(power_numbers(1,2,3,4))
