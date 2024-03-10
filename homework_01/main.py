@@ -43,5 +43,5 @@ def filter_numbers(number_list, filter_type):
     if filter_type == EVEN:
         return [number for number in number_list if number % 2 == 0]
     if filter_type == PRIME:
-        return [number for number in number_list if is_prime(number)==True]
+        return [number for number in number_list if is_prime(number)]
 
