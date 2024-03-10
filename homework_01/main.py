@@ -45,6 +45,3 @@ def filter_numbers(number_list, filter_type):
     if filter_type == PRIME:
         return [number for number in number_list if is_prime(number)==True]
 
-
-# print(filter_numbers([1,2,3,5,6,7,8,9,10,11,12,13,14,15,17,18, 19,20, 23, 29], PRIME))
-# print(power_numbers(1,2,3,4))
